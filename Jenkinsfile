@@ -6,6 +6,7 @@ pipeline {
             steps {
                 sh 'python3 hello.py'
                 sh 'python3 hello_again.py'
+		sh hello.sh
             }
         }
     }
